@@ -1,0 +1,62 @@
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/*Animacion*/
+
+.css_div {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    background-color: orange;
+    animation: css_div 10s ease-in-out;
+}
+
+@keyframes css_div {
+
+    30% {
+        background-color: yellow;
+        rotate: 90deg;
+        height: 60px;
+    }
+
+    50% {
+        background-color: blue;
+        rotate: 180deg;
+        height: 80px;
+    }
+
+    70% {
+        background-color: greenyellow;
+        rotate: 180deg;
+        height: 80px;
+        width: 100px;
+    }
+
+    100% {
+        rotate: 360deg;
+        background-color: orange;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/*Video*/
+
+video {
+    width: 100%;
+}
+
+#containerVID {
+    margin: 2vw;
+}
